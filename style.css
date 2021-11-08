@@ -5,8 +5,8 @@
 }
 
 body {
-  margin: 60px auto;
-  max-width: 800px;
+  margin: 10px auto;
+  max-width: 900px;
 }
 
 h1,
@@ -19,8 +19,12 @@ h3 {
 h1 {
   font-size: 96px;
 }
+.top {
+  margin-top: 50px;
+}
 
 h2 {
+  padding-top: 50px;
   font-size: 48px;
 }
 
@@ -88,4 +92,13 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--shadow);
+  color: white;
 }
