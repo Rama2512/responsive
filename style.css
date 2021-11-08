@@ -19,6 +19,7 @@ h3 {
 h1 {
   font-size: 96px;
 }
+
 .top {
   margin-top: 50px;
 }
@@ -101,4 +102,25 @@ p {
   background: var(--primary-color);
   box-shadow: var(--shadow);
   color: white;
+}
+.primary-link:hover {
+  color: white;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
